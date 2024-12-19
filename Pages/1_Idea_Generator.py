@@ -12,9 +12,6 @@ import textwrap
 
 
 
-# Create an unverified HTTPS context to bypass SSL verification
-ssl._create_default_https_context = ssl._create_unverified_context
-
 
 # Load environment variables from .env
 load_dotenv()

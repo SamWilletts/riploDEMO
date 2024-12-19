@@ -3,8 +3,7 @@ import ssl
 import json
 import os
 
-# Create an unverified HTTPS context to bypass SSL verification
-ssl._create_default_https_context = ssl._create_unverified_context
+
 
 # Define functions to save and load data
 def save_data(data, filename='sessiondata.json'):
