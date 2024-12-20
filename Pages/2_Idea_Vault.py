@@ -122,7 +122,7 @@ def add_to_calpost(repopostidea_key):
 st.set_page_config(page_title="Idea Vault", page_icon="📣")
 
 
-logo_path = "/Users/samwilletts/Echo/dunno/images/Modus Logo.png"
+logo_path = "images/Modus Logo.png"
 st.logo(logo_path)
 
 

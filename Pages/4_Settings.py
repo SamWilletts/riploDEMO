@@ -91,7 +91,7 @@ input_stats = st.session_state.inputs.get('input_stats', '')
 
 st.set_page_config(page_title="Settings", page_icon="👾")
 
-logo_path = "/Users/samwilletts/Echo/dunno/images/Modus Logo.png"
+logo_path = "images/Modus Logo.png"
 st.logo(logo_path)
 
 

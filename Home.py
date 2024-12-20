@@ -128,7 +128,7 @@ content_style_summary = summaries_df.iloc[1, 11]
 # Streamlit Page Config
 st.set_page_config(page_title="Post Builder", page_icon="📣")
 
-logo_path = "/Users/samwilletts/Echo/dunno/images/Modus Logo.png"
+logo_path = "images/Modus Logo.png"
 st.logo(logo_path)
 
 st.markdown(

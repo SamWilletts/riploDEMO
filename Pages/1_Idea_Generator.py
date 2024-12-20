@@ -280,9 +280,8 @@ def extract_post_outputs(response_text):
 st.set_page_config(page_title="Idea Generator", page_icon="📣")
 
 
-
-logo_path = "/Users/samwilletts/Echo/dunno/images/Modus Logo.png"
-st.logo("/Users/samwilletts/Echo/Modus6/Modus6/Files/images/Modus Logo.png")
+logo_path = "images/Modus Logo.png"
+st.logo(logo_path)
 
 
 st.markdown(

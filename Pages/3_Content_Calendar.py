@@ -395,7 +395,7 @@ def get_chatgpt_response(prompt):
 # Streamlit Page Config
 st.set_page_config(page_title="Content Calendar", page_icon="📣")
 
-logo_path = "/Users/samwilletts/Echo/dunno/images/Modus Logo.png"
+logo_path = "images/Modus Logo.png"
 st.logo(logo_path)
 
 
