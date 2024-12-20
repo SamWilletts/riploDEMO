@@ -128,12 +128,9 @@ content_style_summary = summaries_df.iloc[1, 11]
 # Streamlit Page Config
 st.set_page_config(page_title="Post Builder", page_icon="📣")
 
-# logo_path = "images/Modus Logo.png"
-# st.logo(logo_path)
+logo_path = "images/Modus Logo.png"
+st.logo(logo_path)
 
-
-st.sidebar.title("Test Sidebar")
-st.sidebar.write("Sidebar content is working!")
 
 
 # Streamlit app layout
