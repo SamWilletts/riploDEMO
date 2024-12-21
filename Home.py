@@ -132,6 +132,23 @@ logo_path = "images/Modus Logo.png"
 st.logo(logo_path)
 
 
+st.markdown(
+    """
+    <style>
+    [data-testid="stSidebar"] {
+        background-color: #38493a !important;
+        height: 100vh;  /* Ensure full height */
+    }
+    [data-testid="stSidebarContent"] * {
+        color: #f2eee7 !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
 
 # Streamlit app layout
 st.caption(f"{business_name_primary}")
