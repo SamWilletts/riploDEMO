@@ -408,7 +408,7 @@ st.markdown(
         height: 100vh;  /* Ensure full height */
     }
     [data-testid="stSidebarContent"] * {
-        color: #f2eee7 !important;
+        color: #f6f2e8 !important;
     }
     </style>
     """,
