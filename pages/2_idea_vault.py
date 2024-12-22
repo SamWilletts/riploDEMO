@@ -122,8 +122,9 @@ def add_to_calpost(repopostidea_key):
 st.set_page_config(page_title="Idea Vault", page_icon="📣")
 
 
-logo_path = "images/Modus Logo.png"
-st.logo(logo_path)
+logo_large = "images/Riplo Beta Text Logo 1.svg"
+logo_small = "images/Riplo Beta Text Logo Small.svg"
+st.logo(logo_large, size="large", icon_image=logo_small)
 
 
 st.markdown(
